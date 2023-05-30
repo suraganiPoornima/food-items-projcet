@@ -1,0 +1,70 @@
+/* For Mobile Screen Devices */
+@media (min-width: 320px) and (max-width: 576px){
+
+    /* Header Starts */
+    nav .nav-right{
+        display: none;
+    }
+   nav .nav-mid a{
+        display: block;
+        
+   }
+   nav .nav-mid {
+    display: block;
+    position: relative;
+    left: 56px;
+    
+    
+   }
+   nav .nav-left{
+    display: none;
+   }
+    /* Header ends */
+    .banner{
+        align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .banner h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .banner .text-part{ 
+        width: 100%;
+        transform: translate(0, 0);
+
+       
+    }
+    /* banner end  */
+    /* section start  */
+    section .container{
+        gap: 25px;
+    }   
+}
+/* For Tab Screen Devices */
+@media (min-width:577px) and (max-width: 768px){
+    /* Header Starts  */
+
+    nav li {
+        display: block;
+      }
+    
+      nav li a {
+        display: block;
+        text-align: center;
+      }
+    
+      .menu-toggle {
+        display: block;
+        background-color: #f2f2f2;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #333;
+      }
+      .nav-right{
+          display: none;
+      }
+    /* Header Ends  */
+}
